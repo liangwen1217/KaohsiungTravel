@@ -1,0 +1,286 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+img {
+    max-width: 100%;
+    height: auto; }
+  
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; }
+  
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
+*{box-sizing: border-box;}
+
+body {
+    width: 1024px;
+    font-family: Heiti FC,Microsoft JhengHei;
+    margin: 0 auto; }
+  
+.banner {
+    height: 380px;
+    background-image: url(/img/Hero2.png);
+    position: relative; 
+}
+.banner h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 90px; 
+}
+  
+.banner select {
+    width: 450px;
+    height: 48px;
+    margin-top: 96px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: solid 3px white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-family: Heiti FC,Microsoft JhengHei;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    background-image: url(../images/icons_down.png);
+    background-repeat: no-repeat;
+    background-position: 97% 50%; 
+}
+  
+.menu {
+    position: absolute;
+    width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 2px 10px #aaa;
+    box-shadow: 0px 2px 10px #aaa;
+    top: 352px;
+    left: 112px; 
+}
+.menu h2 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 26px;
+    margin-top: 20px; 
+}
+.menu .buttons {
+    margin-left: 51px;
+    margin-top: 14px;
+    margin-bottom: 18px; 
+}
+
+.menu .buttons button {
+    width: 130px;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 3px 10px #dedede;
+    box-shadow: 0px 3px 10px #dedede;
+    margin-right: 23px;
+    font-family: Heiti FC,Microsoft JhengHei;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s; 
+}
+.menu .buttons .Lingya {
+    background-color: #8A82CC; 
+}
+
+.menu .buttons .Lingya:hover, .menu .buttons .Lingya:focus {
+    background-color: #685ebd; 
+}
+.menu .buttons .Sanmin {
+    background-color: #FFA782; 
+}
+.menu .buttons .Sanmin:hover, .menu .buttons .Sanmin:focus {
+    background-color: #ff834f; 
+}
+.menu .buttons .Xinxing {
+    background-color: #F5D005; 
+}
+.menu .buttons .Xinxing:hover, .menu .buttons .Xinxing:focus {
+    background-color: #ebc805; 
+}
+.menu .buttons .Yancheng {
+    background-color: #559AC8; 
+}
+.menu .buttons .Yancheng:hover, .menu .buttons .Yancheng:focus {
+    background-color: #3981b1; 
+}  
+
+.line {
+    position: relative;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px; 
+}
+
+.line svg {
+    stroke: #559AC8;
+    stroke-dasharray: 6;
+    stroke-dashoffset: 22; 
+}
+.line .roll {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 24px;
+    height: 24px;
+    border: solid 2px #559AC8;
+    background-color: #fff;
+    border-radius: 99px;
+    color: #559AC8;
+    font-size: 21px; 
+}
+  
+.zone-h2 {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #8A82CC;
+    margin-top: 76px; 
+}
+  
+.content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 24px; 
+}
+    
+.content .card {
+    width: 464px;
+    margin-bottom: 36px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px #dedede;
+    box-shadow: 0 5px 10px #dedede; 
+}
+
+.content .card .card-img {
+    height: 155px;
+    background-position: center center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+}
+    
+.content .card .card-img .place {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 22px;
+    margin-bottom: 14px;
+}
+
+.content .card .card-img .zone-span {
+    margin-left: auto;
+    margin-right: 24px;
+    margin-bottom: 11px; 
+}
+.content .card .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+}
+.content .card .card-body ul {
+    margin-bottom: 22px;
+    margin-left: 22px;
+    margin-right: 22px;
+    line-height: 1.8;
+ }
+.content .card .card-body img {
+    margin-top: 16px; 
+}
+.content .card .card-body .clock img {
+    margin-right: 9px; 
+}
+.content .card .card-body .add img {
+    margin-right: 10px; 
+}
+.content .card .card-body .third img {
+    margin-right: 14px;
+    margin-left: 2px; 
+}
+.content .card .card-body .ticket img {
+    margin-right: 8px;
+    margin-left: 1px; 
+}
